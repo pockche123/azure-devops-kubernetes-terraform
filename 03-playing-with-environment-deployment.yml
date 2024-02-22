@@ -37,5 +37,5 @@ stages:
       runOnce: 
         deploy: 
           steps: 
-          - script: echo deploy to QA (approval test)
+          - script: echo "deploy to QA (approval test)"
 
