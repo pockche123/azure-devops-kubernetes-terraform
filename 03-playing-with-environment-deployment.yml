@@ -31,11 +31,11 @@ stages:
 
 - stage: QADeploy
   jobs: 
-  - deployment: DevDeployJob
+  - deployment: QADeployJob
     environment: QA
     strategy: 
       runOnce: 
         deploy: 
           steps: 
-          - script: echo deploy to Dev
+          - script: echo deploy to QA
 
